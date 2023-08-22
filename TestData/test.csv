@@ -1,0 +1,4 @@
+***Test Case***,email,password
+Invalid password,paresh+700@logibricks.in,Advik
+Invalid email,paresh@logibricks.in,Advik@007
+Special Character,paresh+700@logibricks.in,Advik@007

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.9 on win32)" generated="20230720 16:03:36.326" rpa="false" schemaversion="3">
+<suite id="s1" name="Extlogin" source="C:\Users\paresh.joshi\PycharmProjects\Demo_Project\LoginTest\extlogin.robot">
+<test id="s1-t1" name="Invalid password,paresh+700@logibricks.in,Advik" line="12">
+<kw name="Validate login">
+<arg>${email}</arg>
+<arg>${password}</arg>
+<msg timestamp="20230720 16:03:36.570" level="FAIL">Variable '${email}' not found.</msg>
+<status status="FAIL" starttime="20230720 16:03:36.570" endtime="20230720 16:03:36.570"/>
+</kw>
+<status status="FAIL" starttime="20230720 16:03:36.570" endtime="20230720 16:03:36.570">Variable '${email}' not found.</status>
+</test>
+<test id="s1-t2" name="Invalid email,paresh@logibricks.in,Advik@007" line="12">
+<kw name="Validate login">
+<arg>${email}</arg>
+<arg>${password}</arg>
+<msg timestamp="20230720 16:03:36.588" level="FAIL">Variable '${email}' not found.</msg>
+<status status="FAIL" starttime="20230720 16:03:36.570" endtime="20230720 16:03:36.588"/>
+</kw>
+<status status="FAIL" starttime="20230720 16:03:36.570" endtime="20230720 16:03:36.588">Variable '${email}' not found.</status>
+</test>
+<test id="s1-t3" name="Special Character,paresh+700@logibricks.in,Advik@007" line="12">
+<kw name="Validate login">
+<arg>${email}</arg>
+<arg>${password}</arg>
+<msg timestamp="20230720 16:03:36.588" level="FAIL">Variable '${email}' not found.</msg>
+<status status="FAIL" starttime="20230720 16:03:36.588" endtime="20230720 16:03:36.588"/>
+</kw>
+<status status="FAIL" starttime="20230720 16:03:36.588" endtime="20230720 16:03:36.588">Variable '${email}' not found.</status>
+</test>
+<doc>Valiadte login functionalaity</doc>
+<status status="FAIL" starttime="20230720 16:03:36.328" endtime="20230720 16:03:36.588"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Extlogin">Extlogin</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
